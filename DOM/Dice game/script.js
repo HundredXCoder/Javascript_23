@@ -56,7 +56,7 @@ document.querySelector(".btn--hold").addEventListener("click", function () {
     totalScore += currentTotal;
     document.querySelector(`#score--${currentPlayer}`).textContent = totalScore;
 
-    if (totalScore >= 10) {
+    if (totalScore >= 100) {
       isPlaying = false;
       diceImage.classList.add("hidden");
       document
